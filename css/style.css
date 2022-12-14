@@ -980,7 +980,16 @@ ul.dropdown-menu li {
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+
+}
+.slider .block h2 {
+  font-weight: 100;
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: 2px;
   padding-bottom: 15px;
   text-transform: uppercase;
 
