@@ -2701,7 +2701,7 @@ footer.footer.line {
 
 .bg-1 {
   background-image: url("../images/project.jpg");
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
