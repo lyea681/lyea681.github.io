@@ -2701,43 +2701,33 @@ footer.footer.line {
 
 .bg-1 {
   background-image: url("../images/project.jpg");
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 100%;
-  width: 100%;
 }
 
 .bg-2 {
   background: url("../images/featue-bg.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
-  width: 100%;
 }
 
 .bg-3 {
   background: url("../images/home-bg.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
-  width: 100%;
 }
 
 .bg-4 {
   background: url("../images/news.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
-  width: 100%;
 }
 
 .bg-5 {
   background: url("../images/executives3.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
-  width: 100%;
 }
 
 .widget {
