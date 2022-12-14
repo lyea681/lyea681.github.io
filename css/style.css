@@ -2706,31 +2706,51 @@ footer.footer.line {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+@media (max-width: 992px) {
+  .bg-1 {
+    background-attachment: scroll;
+  }
+}
 .bg-2 {
   background: url("../images/featue-bg.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
-
+@media (max-width: 992px) {
+  .bg-2 {
+    background-attachment: scroll;
+  }
+}
 .bg-3 {
   background: url("../images/home-bg.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
-
+@media (max-width: 992px) {
+  .bg-3 {
+    background-attachment: scroll;
+  }
+}
 .bg-4 {
   background: url("../images/news.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
-
+@media (max-width: 992px) {
+  .bg-4 {
+    background-attachment: scroll;
+  }
+}
 .bg-5 {
   background: url("../images/executives3.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
-
+@media (max-width: 992px) {
+  .bg-5 {
+    background-attachment: scroll;
+  }
+}
 .widget {
   margin-bottom: 30px;
 }
