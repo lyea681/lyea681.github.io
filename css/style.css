@@ -7,6 +7,18 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+@supports ( -webkit-touch-callout : none) {
+.selector {
+background-attachment:scroll
+}
+}
+
+@supports not ( -webkit-touch-callout : none) {
+.selector {
+background-attachment: fixed;
+}
+}
+
 h1,
 h2,
 h3,
