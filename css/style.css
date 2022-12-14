@@ -7,6 +7,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+@supports ( -webkit-touch-callout : none) {
+.visibledevice {
+background-attachment:scroll
+}
+}
+
 h1,
 h2,
 h3,
