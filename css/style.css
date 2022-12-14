@@ -7,12 +7,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-@supports ( -webkit-touch-callout : none) {
-.visibledevice {
-background-attachment:scroll
-}
-}
-
 h1,
 h2,
 h3,
@@ -975,6 +969,7 @@ ul.dropdown-menu li {
 @media (max-width: 992px) {
   .slider {
     padding: 150px 0;
+    background-attachment: scroll;
   }
 }
 .slider .block {
